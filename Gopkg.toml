@@ -1,0 +1,15 @@
+[[constraint]]
+  branch = "master"
+  name = "github.com/gen2brain/beeep"
+
+[[constraint]]
+  name = "github.com/spf13/viper"
+  version = "1.2.0"
+
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/marcusolsson/tui-go"
+  branch = "master"
